@@ -14,7 +14,7 @@ import pickle
 import re
 
 def load_data_train(file_name):
-    ''' load and clean sf data'''
+    ''' load and clean data'''
 
     float_cols = [0, 29]
     int_cols = [3, 4, 5, 6, 12, 20, 21, 23, 25, 26, 27, 28, 30]

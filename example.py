@@ -116,7 +116,7 @@ def pfp(d_f):
     df_trimmed_b = pd.concat([df_trimmed_n, df_trimmed_f], axis=1)
     return df_trimmed_b
 
-# load & clean sf data
+# load & clean data
 df = load_data_train('Data for Cleaning & Modeling.csv')
 df_test = load_data_test('Holdout for Testing.csv')
 # what cols?

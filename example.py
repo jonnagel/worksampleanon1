@@ -97,7 +97,7 @@ def get_best_cols(df):
     # leave y alone
     y = df.X1
     # I don't like to guess yes this is only linear relationships
-    estimator = SVR(kernel="lineary")
+    estimator = SVR(kernel="linear")
     selector = RFE(estimator, 40, step=2)
     selector = selector.fit(X, y)
     # make index for merged df, yes this whines
